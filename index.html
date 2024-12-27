@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storify fashions</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <h1>Storify</h1>
+        
+        <div class="navlink">
+            <p class="links"><a href="index.html">Home</a></p>
+            <p class="links"><a href="collection.html">Collections</a></p>
+            <p class="links"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbartoggle" onclick="show()" >
+            <i class="fa-solid fa-bars" ></i>
+        </div>
+     </nav>
+<!-- sidenavbar -->
+ <div class="sidenavbar">
+    <p style="text-align: right;" onclick="closenav()" >
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="sidenavlink">
+        <p class="sidelinks"><a href="index.html">Home</a></p>
+        <p class="sidelinks"><a href="collection.html">Collections</a></p>
+        <p class="sidelinks"><a href="contact.html">Contact</a></p>
+    </div>
+
+ </div>
+ 
+
+<!-- header -->
+ <!-- <div class="collheadssection">
+
+ </div> -->
+ <div class="header">
+    
+    <div>
+        <h1>Level up your style</h1>
+        <p>with our stunning collections</p>
+        <button class="headbtn">Shop Now</button>
+    </div>
+    <div>
+        <img class="headimg"src="head.jpg" alt="" style="width: 200px; height:300px;border-radius: 5px;">
+    </div>
+ </div>
+ <!-- card -->
+  <!-- Cards Section -->
+  <div>
+      <h2 style="padding-left: 20px;">Best of All Time</h2>
+  </div>
+<div class="cards-section">
+    <div class="card">
+        <div class="card-image">
+            <img src="card1.jpg" alt="Card 1">
+        </div>
+        <div class="card-overlay">
+            <h3>Golden Hour Street Style</h3>
+            <p>A vibrant outfit featuring a cropped yellow hoodie and matching joggers, paired with white boots.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-image">
+            <img src="card2.jpg" alt="Card 2">
+        </div>
+        <div class="card-overlay">
+            <h3>Casual Denim</h3>
+            <p>A relaxed and timeless look that features a classic denim shirt paired with dark trousers.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-image">
+            <img src="card3.jpg" alt="Card 3">
+        </div>
+        <div class="card-overlay">
+            <h3>Modern Elegance in Gray</h3>
+            <p>A minimalist yet striking outfit showcasing a gray belted trench coat. </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-image">
+            <img src="card4.jpg" alt="Card 3">
+        </div>
+        <div class="card-overlay">
+            <h3>Bold in Red Hoodie</h3>
+            <p>a timeless blend of comfort and style, perfect for casual outings or lounging in effortless fashion. </p>
+        </div>
+    </div>
+</div>
+<!-- service -->
+ <div class="service">
+    <div class="servicecontainer1">
+        <div>
+            <h2>We Provide Best Customer Experience</h2>
+            <!-- <h2></h2> -->
+        </div>
+        <div>
+            <p>|| We ensure that our customer have the best shopping experience </p>
+        </div>
+    </div>
+    <div class="servicecontainer2">
+        <div>
+           <i class="fa-regular fa-face-smile"></i>
+           <h4>Satisfaction Guarantee</h4>
+           <p>This stunning websites tailored to your needs, ensuring creativity, functionality, and seamless performance—your vision, our priority!" </p>
+        </div>
+        <div>
+           <i class="fa-regular fa-face-smile"></i>
+           <h4>New Arrival Everyday</h4>
+           <p>This stunning websites tailored to your needs, ensuring creativity, functionality, and seamless performance—your vision, our priority!" </p>
+        </div>
+        <div>
+           <i class="fa-regular fa-face-smile"></i>
+           <h4>Fast and free shipping</h4>
+           <p>This stunning websites tailored to your needs, ensuring creativity, functionality, and seamless performance—your vision, our priority!" </p>
+        </div>
+        
+    </div>
+ </div>
+<!-- newarrivals -->
+ <div style="padding:20px;" >
+ <h2 style="margin-bottom: 20px;">New Arrival</h2>
+ <div class="newarrival">
+    <div class="arrivalcontainer">
+        <img src="new1.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="new2.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="men3.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="men4.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="new5.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!-- <div class="arrivalcontainer">
+        <img src="D:\barath\Full stack\Frontend project\Storify\new6.jpg" style="width: 150px;height: 200px;border-radius: 5px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div> -->
+    <div class="shopmore">
+        <button>See more <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+ </div>
+ </div>
+ <!-- mostwanted -->
+ <div style="padding:20px;" >
+ <h2 style="margin-bottom: 20px;">Most Wanted</h2>
+ <div class="newarrival">
+    <div class="arrivalcontainer">
+        <img src="men2.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="new8.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="new9.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="men6.jpg" style="width: 140px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="men5.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrivalcontainer">
+        <img src="new12.jpg" style="width: 150px;height: 200px;border-radius: 10px;">
+        <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="shopmore">
+        <button>See more <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+ </div>
+ </div>
+ <div class="collheadssection">
+
+ </div>
+ <!-- news -->
+  <div class="news">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Be the first to know about exclusive deals, new arrivals, and style tips!</p>
+    <div>
+        <input type="text" placeholder="Enter your email here..."class="search">
+    </div>
+    <div>
+        <button>Subcribe</button>
+    </div>
+  </div>
+<!-- footer -->
+ <div class="footer">
+    <div class="footercontainer">
+        <div class="box1">
+            <h2>Storify</h2>
+            <p>Feel free to tweak it as per your brand's style and tone!</p>
+            <div class="footericon" style="color: white;">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="con">
+                <p><i class="fa-solid fa-phone"></i> Call Us : 877653467</p>
+                <p>✉️ Email: support@storifyfashion.com</p>
+                <p><i class="fa-solid fa-location"></i> Address: 123 Fashion Street, Style City, USA</p>
+            </div>
+        </div>
+        <p>© 2024 Storify Fashion.All Rights Reserved.</p>
+        <P>Privacy Policy | Terms & Conditions</p>
+        </div>
+
+    
+ </div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
